@@ -9,3 +9,4 @@ git commit -m "Add data ingestion script"
 
 # 4. Push — upload your commits to GitHub
 git push
+pip install
