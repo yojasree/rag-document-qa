@@ -6,8 +6,16 @@ from qa_chain import answer_question
 
 TEST_SET = [
     {
-        "question": "What is this document about?",
-        "expected_keywords": ["topic", "subject"],
+        "question": "What are the main benefits of RAG?",
+        "expected_keywords": ["hallucination", "trustworthy"],
+    },
+    {
+        "question": "What are the three main components of a RAG pipeline?",
+        "expected_keywords": ["embedding", "vector database", "language model"],
+    },
+    {
+        "question": "What tools are commonly used to build RAG systems?",
+        "expected_keywords": ["LangChain", "ChromaDB"],
     },
 ]
 
