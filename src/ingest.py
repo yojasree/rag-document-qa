@@ -8,7 +8,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 
-PDF_PATH = "data/sample.pdf"
+PDF_PATH = "data/research_paper.pdf"
 CHROMA_DB_DIR = "chroma_db"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 100
